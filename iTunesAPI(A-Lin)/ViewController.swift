@@ -45,8 +45,6 @@ class ViewController: UIViewController {
             }
         }
         
-//        albumImageView.layer.shadowOpacity = 0.5
-//        albumImageView.layer.shadowRadius = 15
         singerlabel.text = artistName!
         trackLabel.text = trackName!
         
