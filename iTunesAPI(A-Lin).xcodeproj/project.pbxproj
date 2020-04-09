@@ -13,6 +13,9 @@
 		E76B64A3243F1729008F56DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76B64A1243F1729008F56DD /* Main.storyboard */; };
 		E76B64A5243F172C008F56DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76B64A4243F172C008F56DD /* Assets.xcassets */; };
 		E76B64A8243F172C008F56DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76B64A6243F172C008F56DD /* LaunchScreen.storyboard */; };
+		E76B64B0243F1B49008F56DD /* LinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B64AF243F1B49008F56DD /* LinTableViewController.swift */; };
+		E76B64B2243F1B5D008F56DD /* LinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B64B1243F1B5D008F56DD /* LinTableViewCell.swift */; };
+		E76B64B4243F1C99008F56DD /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B64B3243F1C99008F56DD /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E76B64A4243F172C008F56DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E76B64A7243F172C008F56DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E76B64A9243F172C008F56DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76B64AF243F1B49008F56DD /* LinTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinTableViewController.swift; sourceTree = "<group>"; };
+		E76B64B1243F1B5D008F56DD /* LinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinTableViewCell.swift; sourceTree = "<group>"; };
+		E76B64B3243F1C99008F56DD /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				E76B649D243F1729008F56DD /* SceneDelegate.swift */,
 				E76B649F243F1729008F56DD /* ViewController.swift */,
 				E76B64A1243F1729008F56DD /* Main.storyboard */,
+				E76B64B1243F1B5D008F56DD /* LinTableViewCell.swift */,
+				E76B64AF243F1B49008F56DD /* LinTableViewController.swift */,
+				E76B64B3243F1C99008F56DD /* Song.swift */,
 				E76B64A4243F172C008F56DD /* Assets.xcassets */,
 				E76B64A6243F172C008F56DD /* LaunchScreen.storyboard */,
 				E76B64A9243F172C008F56DD /* Info.plist */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76B64B4243F1C99008F56DD /* Song.swift in Sources */,
 				E76B64A0243F1729008F56DD /* ViewController.swift in Sources */,
+				E76B64B0243F1B49008F56DD /* LinTableViewController.swift in Sources */,
 				E76B649C243F1729008F56DD /* AppDelegate.swift in Sources */,
+				E76B64B2243F1B5D008F56DD /* LinTableViewCell.swift in Sources */,
 				E76B649E243F1729008F56DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
